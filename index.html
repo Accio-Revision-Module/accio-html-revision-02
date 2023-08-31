@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <style>
+    h1 {
+      color: rgb(60, 60, 255);
+    }
+  </style>
+  <body style="background-color: #efefef; color: #333">
+    <button tabindex="4" aria-label="Close">X</button>
+    <h1>Heading</h1>
+    <h2>Sub-heading</h2>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
+      fugiat.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam
+      maxime delectus eius tenetur voluptates, aspernatur deleniti ea obcaecati
+      labore.
+    </p>
+
+    <h1>Lists</h1>
+    <h2>Unordered</h2>
+    <ul>
+      <li>Wash clothes</li>
+      <li>Go to gym</li>
+    </ul>
+
+    <h2>Ordered</h2>
+    <ol type="1">
+      <li>John</li>
+      <li>Alice</li>
+    </ol>
+
+    <h1>Figure</h1>
+    <figure>
+      <img
+        src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+        alt="tree"
+        width="500"
+      />
+      <figcaption>This is an image of a tree</figcaption>
+    </figure>
+
+    <h1>Quote</h1>
+    <h2>Blockquote</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia iste,
+      reprehenderit at earum dolorum, numquam, fugit dolorem esse cupiditate
+      expedita ipsa iure accusantium provident? Sed nesciunt autem laboriosam
+      molestias eveniet.
+    </p>
+    <blockquote
+      cite="https://www.ef.co.uk/english-resources/english-quotes/famous/"
+    >
+      A rose by any other name would smell as sweet.
+    </blockquote>
+
+    <h2>Quote</h2>
+    <q cite="https://www.ef.co.uk/english-resources/english-quotes/famous/"
+      >A rose by any other name would smell as sweet.</q
+    >
+
+    <h1>Address</h1>
+    <address>
+      16h, I D A, Balanagar,<br />
+      Hyderabad, Andhra Pradesh
+    </address>
+
+    <h1>Time</h1>
+    <time datetime="2024-12-25">Chirstmas Event</time>
+
+    <h1>Abbr tag</h1>
+    <abbr title="Hyper Text Markup Language">HTML</abbr>
+    <abbr title="Cascading Style Sheets">CSS</abbr>
+
+    <form>
+      <input tabindex="1" type="text" placeholder="Enter your name" />
+      <br />
+      <input tabindex="2" type="number" placeholder="Enter your number" />
+      <button tabindex="3">Submit</button>
+    </form>
+
+    <h1>Videos</h1>
+
+    <!-- <video>
+      <source src="https://www.youtube.com/watch?v=xbgzl2maQUU" />
+    </video> -->
+
+    <iframe
+      allow="fullscreen"
+      src="https://www.youtube.com/embed/xbgzl2maQUU"
+    ></iframe>
+    <script>
+      localStorage.setItem("name", "jayesh");
+      const name = localStorage.getItem("name");
+      console.log(name);
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
